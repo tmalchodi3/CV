@@ -1,0 +1,277 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage[dvipsnames]{xcolor}
+
+\usepackage{gensymb}
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.1in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Jeremy K. Thaller} % Your name
+\address{10 Knowlton Dr. \\ Acton, MA 01720} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{github: loisks317 \\ blog: loisks.blogspot.com}
+\address{978-496-7990 \\ jkt2@williams.edu} % Your phone number and email
+%\definecolor{darkpurple}{RGB}{108,48,130}
+
+\renewenvironment{rSection}[1]{
+	\sectionskip
+	\textcolor{RoyalPurple}{\MakeUppercase{#1}}
+	\sectionlineskip
+	\hrule
+	\begin{list}{}{
+			\setlength{\leftmargin}{1.5em}
+		}
+		\item[]
+	}{
+	\end{list}
+}
+
+
+
+\begin{document}
+	
+	%----------------------------------------------------------------------------------------
+	%	EDUCATION SECTION
+	%----------------------------------------------------------------------------------------
+	
+	\begin{rSection}{Education}
+		{\bf Technische Universit{\"a}t M{\"u}nchen (TUM)} \hfill {\em September 2019 - September 2020} 
+		\\Anticipated M.S. in Applied and Engineering Physics
+		\\Erasmus Mundus: Masters in Materials Science Exploring Large Scale Facilities
+		
+		{\bf Williams College} \hfill {\em September 2015 - Present} 
+		\\(\emph{in progress}) B.A. in Physics with Honors\\
+		Pre-engineering studies \hfill
+		
+		
+		{\bf Acton-Boxborough Regional High School} \hfill {\em 2011-2015} 
+		\\ National AP Scholar \hfill
+		\\ National Honors Society
+
+		
+		
+	\end{rSection}
+	%----------------------------------------------------------------------------------------
+	%	TECHNICAL STRENGTHS SECTION
+	%----------------------------------------------------------------------------------------
+	\newcommand{\CC}{C\nolinebreak\hspace{-.05em}\raisebox{.4ex}{\tiny\bf +}\nolinebreak\hspace{-.10em}\raisebox{.4ex}{\tiny\bf +}}
+	\def\CC{{C\nolinebreak[4]\hspace{-.05em}\raisebox{.4ex}{\tiny\bf ++}}}
+	
+	\begin{rSection}{Technical Strengths}
+		
+		\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+			Programming Languages &  MATLAB, JAVA, HTML, Python, Arduino (C/\CC) \\
+			Data Software & Mathematica, Excel, LabView, LoggerPro \\
+			Other Software & LaTeX, Solid Works, Adobe Illustrator, Adobe Photoshop   \\
+			Machining Experience & Bridgeport Milling, CNC Milling, 3D Printing, Laser Cutting \\
+		\end{tabular}
+		
+	\end{rSection}
+	
+	%----------------------------------------------------------------------------------------
+	%	RESEARCH EXPERIENCE SECTION
+	%----------------------------------------------------------------------------------------
+
+	
+	\begin{rSection}{Research Experience}
+		
+		\begin{rSubsection}{Soft Condensed Matter Physics}{May 2018 - Present}{Undergraduate Honors Thesis}{}
+			\vspace{-.5em}
+				\item[] {\em Advised by Katharine E. Jensen, Professor of Physics}\hfill {\em Williams College}
+				\item Designed and built stretching apparatus to induce equibiaxial stretch in soft materials
+				\item Used Fluorescent Confocal Microscopy to measure the strain dependency of solid surface stress is soft materials via adhesion
+				\item Data was collected through modified MATLAB scripts from K.E. Jensen and M.L. Kilfoil
+		
+		\end{rSubsection}
+%		
+		%----------------------------------------------------------------------------
+
+
+		\begin{rSubsection}{Atomic, Molecular, and Optical Physics}{June - August 2017}{Undergraduate Research Assistant}{}
+			\vspace{-.5em}
+			\item[] {\em Advised by Protik K. Majumder, Professor of Physics}\hfill {\em Williams College}
+			\item Took data towards an ultra-precise  measurement of the Electric Quadrupole (E2) amplitude within the $6S^26P^2$ $^3P_0$ $\rightarrow$ $^3P_2$ transition in Pb
+			\item Programed a PID controller in LabView to thermally regulate an oven to within $\pm .4\degree$ C at temperatures around $ 950\degree $ C
+			\item Designed a deposition-rate detector for an indium cell chamber based on the mass dependent frequency of Quartz Crystals
+		\end{rSubsection}
+
+\end{rSection}
+
+%------------------------------------------------------------------------------------
+%       Teaching EXPERIENCE
+%------------------------------------------------------------------------------------
+
+\begin{rSection}{Teaching Experience} \itemsep -2pt
+		\begin{rSubsection}{Math and Science Resource Center Tutor}{}{}{Williams College}{}
+		\item {Tutored all introductory physics and calculus courses} \hfill {Spring 2019 - Present} 
+	\end{rSubsection}
+	\begin{rSubsection}{Physics/Math TA}{}{}{Williams College}{}
+		\item {Introduction to Mechanics}\hfill{Fall 2017 \& 2018}
+		\item {Mathematical Methods for Scientists} \hfill {Spring 2018} 
+		\end{rSubsection}
+	\begin{rSubsection}{Music Conducting}{}{}{UMASS Amherst}{}
+		\item {George N. Parks Drum Major Academy staff member} \hfill {Summer 2015} 
+	\end{rSubsection}
+\end{rSection}
+
+
+%------------------------------------------------------------------------------------
+%       WORK EXPERIENCE
+%------------------------------------------------------------------------------------
+
+
+\begin{rSection}{Work Experience} \itemsep -2pt
+	\begin{rSubsection}{Office of Information Technologies}{June 2017 - August 2017}{}{Williams College}{}
+	\item {Student Technology Assistant} \hfill {\em 40 hr/week}
+	\end{rSubsection}
+%-----------------------------
+	\begin{rSubsection}{Williams College Wind Ensemble}{September 2016 - June 2017}{}{Williams College}{}
+	\item {Teaching Assistant, Bassoonist} \hfill {\em 40 hr/week}
+	\end{rSubsection}
+
+\end{rSection}
+
+%------------------------------------------------------------------------------------
+%       Professional Memberships
+%------------------------------------------------------------------------------------
+	\begin{rSection}{Professional Memberships} \itemsep -2pt
+		{American Physical Society} \hfill {July 2018 - Present}
+		\\
+		{New England Complex Fluids Workgroup} \hfill {May 2018 - Present}
+		
+	\end{rSection}
+	
+%------------------------------------------------------------------------------------
+%       Leadership
+%------------------------------------------------------------------------------------	
+		\begin{rSection}{Leadership} \itemsep -2pt
+		{Williams College Track Captain} \hfill {2018-2019} \\
+		{WASA (College Rocketry Club) Founder/President} \hfill {2017-Present} \\
+		{High School Track Captain} \hfill {2014-2015}  \\
+		{High School Head Drum Major} \hfill {2013-2015}  \\
+		
+
+		
+		
+	\end{rSection}
+	
+	
+	
+	%	EXAMPLE SECTION
+	%----------------------------------------------------------------------------------------
+%	
+%	\begin{rSection}{Achievements} \itemsep -2pt
+%		{Michigan Institute for Computational Discovery Fellow }\hfill {\em Spring 2015} \\
+%		{NSF GROW Fellowship Awardee}\hfill {\em Spring 2015} \\
+%		{Community Coordinated Modeling Center Research Winner} \hfill {\em Spring 2015} \\
+%		{NSF Graduate Research Fellowship Program Fellow}\hfill {\em Spring 2014}\\
+%		{Rackham Merit Fellow}\hfill {\em Fall 2013}\\
+%		{Template Developer for LaTeX} \hfill {\em September 2013 - Present} \\
+%		{Backpacker and Hiking Enthusiast - have climbed 7 $>$ 14,000 ft peaks}
+%	\end{rSection}
+	
+
+
+
+%------------------------------------------------------------------------------------
+%       Publications
+%------------------------------------------------------------------------------------	
+\begin{rSection}{Publications} \itemsep -2pt
+	Coming Soon... On track to submit adhesion paper to Nat Comm before graduation
+\end{rSection}	
+
+%------------------------------------------------------------------------------------
+%       Posters and Presentations
+%--------------------------------------------------------------------------------
+
+\begin{rSection}{Posters and Presentation} \itemsep -2pt
+%	\begin{rSubsection}{Posters}{}{}{Williams College}{}
+		\item {Adhesion-Based Measurements of Strain-Dependent \hfill {\em APS March Meeting 2019} \\Surface Stress in Soft Solids}
+	\item {Sprinkling stuff and then stretching it: How hard could it be?} \hfill {\em Williams Physics Thesis Update}
+		\item { Measuring Strain-Dependent Surface Stress in Soft Matter via Adhesion} \hfill {\em UMASS Soft Matter Day}
+		\item { A Precise Measurement of the Electric Quadrupole \hfill {\em Williams Summer Science 2017} \\ Amplitude Within the ${6S^2 6P^2}$ \space ${^3 P_0 \space \rightarrow} \space$ ${^3P_2}$ Transition in Pb} 
+	
+	
+%	\end{rSubsection}
+	%-----------------------------
+%	\begin{rSubsection}{Presentations}{}{}{Williams College}{}
+%		\item { A Precise Measurement of the Electric Quadrupole \\ Amplitude Within the ${6S^2 6P^2}$ \space ${^3 P_0 \space \rightarrow} \space$ ${^3P_2}$ Transition in Pb} \hfill {\em Williams Physics Tea Talks 2017}
+%		\item {Measuring Strain-Dependent Surface Stress via Adhesion} \hfill {\em UMASS Soft Matter Day 2018}
+%	\end{rSubsection}
+	
+\end{rSection}
+
+
+
+%------------------------------------------------------------------------------------
+%       Coursework
+%------------------------------------------------------------------------------------	
+	\begin{rSection}{Advanced Physics Coursework} \itemsep -2pt
+		Condensed Matter Physics (Spring 2019) \\
+		Thermodynamics and Statistical Mechanics (Spring 2019)\\
+		Advanced Classical Mechanics and Fluid Dynamics (Tutorial) \\
+		Gravity \\
+		Particle Physics (Tutorial)\\
+		Quantum Mechanics \\
+		Philosophical Implications of Modern Physics \\
+		Electricity and Magnetism \\
+		Mathematical Methods for Scientists \\
+		Vibrations, Waves, and Optics
+	\end{rSection}
+
+\pagebreak
+
+%------------------------------------------------------------------------------------
+%       Awards and Achievements
+%------------------------------------------------------------------------------------
+	\begin{rSection}{Awards and Achievements} \itemsep -2pt
+		Dean's List \hfill \textit{Williams College} \\
+		NESCAC Track \& Field All-Conference \\
+		Stratus Technologies Engineering Scholarship   \\
+		John Phillips Sousa Band Award \hfill \textit{Acton-Boxborough Regional High School} \\
+		Boston Globe Track \& Field All-Scholastic \\
+		Boston Herald Track \& Field All-Scholastic \\
+		Lowell Sun Track \& Field All-Scholastic \\                                   
+	\end{rSection}
+	
+	
+	
+	
+%------------------------------------------------------------------------------------
+%       Additional Information
+%------------------------------------------------------------------------------------	
+	\begin{rSection}{Additional Information} \itemsep -2pt
+		\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+			Interests &  Bassoon, Jazz Piano, Running, Bicycle Repair, Arduinos, Rocketry, Graphic Design \\
+			Languages &  German (Currently B2)
+		\end{tabular}
+	\end{rSection}
+
+
+
+
+\end{document}
+
+
